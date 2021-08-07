@@ -40,6 +40,13 @@ function App() {
         })
 
       })
+
+      spotify.getPlaylist('addId here').then(response => {
+        dispatch({
+          type: "SET_DISCOVER_WEEKLY",
+          discover_weekly: response,
+        })
+      })
     }
   }, []);
   //console.log("👨", user);
