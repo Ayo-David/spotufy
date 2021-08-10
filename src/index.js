@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './css/index.css';
 import App from './App';
-import { DataLayer } from './DataLayer';
+import { DataLayer } from './context/DataLayer';
 import reportWebVitals from './reportWebVitals';
-import { initialState, reducerFunction } from './Reducer';
+import { initialState, reducerFunction } from './context/Reducer';
 
 ReactDOM.render(
   <React.StrictMode>
