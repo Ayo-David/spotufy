@@ -1,6 +1,6 @@
 import React from 'react';
-import './Login.css';
-import { loginUrl } from './spotufy';
+import '../css/Login.css';
+import { loginUrl } from '../config/spotufy';
 
 const Login = props => {
     return (
