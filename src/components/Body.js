@@ -6,6 +6,10 @@ import Header from '../components/Header';
 import SongRow from '../components/SongRow';
 
 const Body = (spotify) => {
+    const item = {
+        track: "Good good father",
+        artist: "Eben",
+    }
 
     const [{ discovery_weekly }, dispatch] = useDataLayerValue();
     return (
